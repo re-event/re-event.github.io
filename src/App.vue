@@ -5,7 +5,7 @@
 
 <template>
   <div></div>
-  <h1 class="text-3xl font-bold underline font-thin">
+  <h1 class="text-3xl font-bold underline">
     re-event website
   </h1>
 </template>
