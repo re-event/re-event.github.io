@@ -6,6 +6,6 @@
 <template>
   <div></div>
   <h1 class="text-3xl font-bold underline">
-    re-event website
+    re-event website test
   </h1>
 </template>
