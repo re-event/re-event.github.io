@@ -1,5 +1,12 @@
 <script>
-  
+  export default {
+    data() {
+      return {
+        
+      }
+    },
+
+  }
 </script>
 
 
@@ -13,11 +20,11 @@
   </div>
   <div class="fixed top-0 left-0"> <!--TOP NAV BAR-->
     <svg class="w-screen h-[64px]">
-      <rect class="w-screen h-[64px] fill-blue-900 opacity-50" />
+      <rect class="w-screen h-[64px] fill-blue-900 opacity-50 backdrop-blur-xl"/>
     </svg>
     <div> <!--nav icon general positioning-->
       <!--add ease-->
-      <a class="absolute left-[16px] top-[16px]" href="index.html"> <!--HOME-->
+      <a class="absolute left-[16px] top-[16px]" href="/"> <!--HOME-->
         <img src="/public/re-event.png" alt="Home" class="w-[32px] h-[32px] opacity-75 hover:w-[35px] hover:h-[35px] hover:translate-x-[-1.5px] hover:translate-y-[-1.5px] hover:opacity-100">
       </a>
       <a class="absolute right-[32px] top-[16px]" href="https://github.com/re-event/re-event.github.io" target="_blank"> <!--GITHUB-->
