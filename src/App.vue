@@ -3,7 +3,9 @@ import topNavBar from '/src/components/topNavBar.vue';
 
 export default {
   data() {
-    return {};
+    return {
+
+    };
   },
   components: {
     topNavBar,
@@ -16,7 +18,7 @@ export default {
   <div class="translate-y-[64px]">
     <div> <!--title-->
       <br>
-      <img src="/public/Main-UI.png" class="w-[45%] h -[45%] justify-center">       <!--CENTER THE IMG-->
+      <img src="/public/Main-UI.png" class="flex w-[45%] h-[45%] mx-auto">
       <h1 class="text-[56px] text-center">Re-Event.</h1> 
     </div>
     <div> <!--content-->
